@@ -67,8 +67,7 @@ const main = document.getElementById("app");
 
 
 // imperative programming
-
-function addElements(pojoElement, parentDOMNode) {
+function addElements (pojoElement, parentDOMNode) {
   let newDOMNode = pojoElement.type === "text"
       ? document.createTextNode(pojoElement.value)
       : document.createElement(pojoElement.type);
